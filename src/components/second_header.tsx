@@ -1,7 +1,22 @@
-import { Bell, Heart, Menu, Search, Settings, Settings2 } from "lucide-react";
+import {
+  Bell,
+  Heart,
+  Menu,
+  Search,
+  Settings,
+  Settings2,
+} from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import { Button } from "./ui/button";
 
 export default function SecondHeader() {
   return (
@@ -29,9 +44,21 @@ export default function SecondHeader() {
             <SheetTrigger className="block md:hidden left-[34px] top-[25px] absolute">
               <Menu />
             </SheetTrigger>
-            <SheetContent className="w-[200px]"></SheetContent>
+            <SheetContent className="w-[200px]">
+              <SheetHeader>
+                <SheetTitle>Log Out</SheetTitle>
+                <SheetDescription>
+                  <Link href="/detailPage" className="flex justify-center">
+                    <Button className="absolute w-[100px] h-[44px] bg-[#3563E9] hover:bg-[#54A6FF] pl-[20px] pr-[20px] rounded-[4px]">
+                      <h1 className="absolute font-sans font-semibold text-[12px] leading-[24px] tracking-[-0.02em] text-center text-[#ffffff]">
+                        Log Out
+                      </h1>
+                    </Button>
+                  </Link>
+                </SheetDescription>
+              </SheetHeader>
+            </SheetContent>
           </Sheet>
-
           <Link href="">
             <Image
               src="/profile.jpeg"

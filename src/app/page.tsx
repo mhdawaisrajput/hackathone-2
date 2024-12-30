@@ -453,16 +453,16 @@ export default function HomePage() {
             <div className="relative">
               <div className="absolute w-[486px] h-[48px] top-[60px] left-[20px]">
                 <div className="absolute w-[76px] h-[44px]">
-                  <h2 className="font-sans font-bold text-[16px] leading-[24px] tracking-[-0.02em] text-[#1A202C] mb-[4px]">
+                  <h2 className="left-[22px] font-sans font-bold text-[16px] leading-[24px] tracking-[-0.02em] text-[#1A202C] mb-[4px]">
                     Location
                   </h2>
                   <label id="location">
                     <select
                       name="location"
                       id="location"
-                      className="font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
+                      className="absolute w-[75px] mt-[4px] font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
                     >
-                      <option value="/">Select your city</option>
+                      <option value="/">Location</option>
                       <option value="karachi">Karachi</option>
                       <option value="hyderabad">Hyderabad</option>
                       <option value="lahore">Lahore</option>
@@ -471,26 +471,26 @@ export default function HomePage() {
                   </label>
                 </div>
 
-                <div className="absolute w-[76px] h-[44px] left-[110px]">
+                <div className="absolute w-[76px] h-[44px] left-[95px]">
                   <h2 className="font-sans font-bold text-[16px] leading-[24px] tracking-[-0.02em] text-[#1A202C] mb-[4px]">
                     Date
                   </h2>
                   <label id="date">
                     <input
                       type="date"
-                      className="font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
+                      className="absolute w-[100px] mt-[4px] font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
                     />
                   </label>
                 </div>
 
-                <div className="absolute w-[76px] h-[44px] left-[221px]">
+                <div className="absolute w-[76px] h-[44px] left-[215px]">
                   <h2 className="font-sans font-bold text-[16px] leading-[24px] tracking-[-0.02em] text-[#1A202C] mb-[4px]">
                     Time
                   </h2>
                   <label id="time">
                     <input
                       type="time"
-                      className="font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
+                      className="absolute w-[70px] mt-[4px] font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
                     />
                   </label>
                 </div>
@@ -520,16 +520,16 @@ export default function HomePage() {
             <div className="relative">
               <div className="absolute w-[486px] h-[48px] top-[60px] left-[20px]">
                 <div className="absolute w-[76px] h-[44px]">
-                  <h2 className="font-sans font-bold text-[16px] leading-[24px] tracking-[-0.02em] text-[#1A202C] mb-[4px]">
+                  <h2 className="left-[22px] font-sans font-bold text-[16px] leading-[24px] tracking-[-0.02em] text-[#1A202C] mb-[4px]">
                     Location
                   </h2>
                   <label id="location">
                     <select
                       name="location"
                       id="location"
-                      className="font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
+                      className="absolute w-[75px] mt-[4px] font-sans font-medium text-[12px] leading-[15.12px]  tracking-[-0.02em] text-[#90A3BF]"
                     >
-                      <option value="/">Select your city</option>
+                      <option value="/">Location</option>
                       <option value="karachi">Karachi</option>
                       <option value="hyderabad">Hyderabad</option>
                       <option value="lahore">Lahore</option>
@@ -538,26 +538,26 @@ export default function HomePage() {
                   </label>
                 </div>
 
-                <div className="absolute w-[76px] h-[44px] left-[110px]">
+                <div className="absolute w-[76px] h-[44px] left-[95px]">
                   <h2 className="font-sans font-bold text-[16px] leading-[24px] tracking-[-0.02em] text-[#1A202C] mb-[4px]">
                     Date
                   </h2>
                   <label id="date">
                     <input
                       type="date"
-                      className="font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
+                      className="absolute w-[100px] mt-[4px] font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
                     />
                   </label>
                 </div>
 
-                <div className="absolute w-[76px] h-[44px] left-[221px]">
+                <div className="absolute w-[76px] h-[44px] left-[215px]">
                   <h2 className="font-sans font-bold text-[16px] leading-[24px] tracking-[-0.02em] text-[#1A202C] mb-[4px]">
                     Time
                   </h2>
                   <label id="time">
                     <input
                       type="time"
-                      className="font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
+                      className="absolute w-[70px] mt-[4px] font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em]  text-[#90A3BF]"
                     />
                   </label>
                 </div>
