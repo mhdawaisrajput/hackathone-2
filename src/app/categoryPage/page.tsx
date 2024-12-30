@@ -578,7 +578,7 @@ export default function CategoryPage() {
                   <label id="time">
                     <input
                       type="time"
-                      className="absolute w-[70px] mt-[4px] font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
+                      className="absolute w-[72px] mt-[4px] font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
                     />
                   </label>
                 </div>
@@ -596,8 +596,6 @@ export default function CategoryPage() {
                   name="radio1"
                   id="radioButton1"
                   className="w-[16px] h-[16px]"
-                  checked
-                  readOnly
                 />
               </label>
               <span className="flex items-center font-sans font-semibold text-[16px] leading-[24px] tracking-[-0.02em] text-[#1A202C] whitespace-nowrap">
@@ -645,7 +643,7 @@ export default function CategoryPage() {
                   <label id="time">
                     <input
                       type="time"
-                      className="absolute w-[70px] mt-[4px] font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
+                      className="absolute w-[72px] mt-[4px] font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
                     />
                   </label>
                 </div>

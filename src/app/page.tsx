@@ -508,8 +508,6 @@ export default function HomePage() {
                   name="radio1"
                   id="radioButton1"
                   className="w-[16px] h-[16px]"
-                  checked
-                  readOnly
                 />
               </label>
               <span className="flex items-center font-sans font-semibold text-[16px] leading-[24px] tracking-[-0.02em] text-[#1A202C] whitespace-nowrap">
