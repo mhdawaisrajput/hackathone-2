@@ -526,11 +526,9 @@ export default function CategoryPage() {
               <label id="radioButton1" className="flex items-center">
                 <input
                   type="radio"
-                  name="radio1"
+                  name="radio"
                   id="radioButton1"
                   className="w-[16px] h-[16px]"
-                  checked
-                  readOnly
                 />
               </label>
               <span className="flex items-center font-sans font-semibold text-[16px] leading-[24px] tracking-[-0.02em] text-[#1A202C] whitespace-nowrap">
@@ -590,11 +588,11 @@ export default function CategoryPage() {
         <div className="relative">
           <div className="absolute w-[327px] h-[120px] top-[184px] left-[24px] rounded-[10px] bg-[#FFFFFF]">
             <div className="absolute w-[92px] h-[20px] top-[16px] left-[20px] flex items-center gap-[8px]">
-              <label id="radioButton1" className="flex items-center">
+              <label id="radioButton2" className="flex items-center">
                 <input
                   type="radio"
-                  name="radio1"
-                  id="radioButton1"
+                  name="radio"
+                  id="radioButton2"
                   className="w-[16px] h-[16px]"
                 />
               </label>
