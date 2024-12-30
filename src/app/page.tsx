@@ -490,7 +490,7 @@ export default function HomePage() {
                   <label id="time">
                     <input
                       type="time"
-                      className="absolute w-[70px] mt-[4px] font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
+                      className="absolute w-[72px] mt-[4px] font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em] text-[#90A3BF]"
                     />
                   </label>
                 </div>
@@ -557,7 +557,7 @@ export default function HomePage() {
                   <label id="time">
                     <input
                       type="time"
-                      className="absolute w-[70px] mt-[4px] font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em]  text-[#90A3BF]"
+                      className="absolute w-[72px] mt-[4px] font-sans font-medium text-[12px] leading-[15.12px] tracking-[-0.02em]  text-[#90A3BF]"
                     />
                   </label>
                 </div>
